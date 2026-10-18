@@ -3,23 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "@auth/prisma-adapter": "^1.6.0",
+    "@google/generative-ai": "^0.24.1",
+    "@prisma/client": "^7.10.1",
+    "@tanstack/react-query": "^5.104.4",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.4.0",
+    "framer-motion": "^14.3.0",
+    "ioredis": "^6.0.0",
+    "lucide-react": "^1.59.0",
+    "nanoid": "^6.0.2",
     "next": "16.4.2",
+    "next-auth": "^5.0.0-beta.25",
+    "openai": "^7.38.0",
+    "prisma": "^8.0.0-rc.23",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
-    "@types/node": "^20",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.19.43",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.2",
+    "prettier": "^3.9.10",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
